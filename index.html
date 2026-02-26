@@ -9,6 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(','\\)'], ['$', '$']],
+        processEscapes: true
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <style>
         :root {
             --primary-color: #4361ee;
@@ -2259,9 +2271,20 @@
                 padding: 2px 10px;
             }
 
-            .quiz-main-area {
-                height: calc(100vh - 32px - 26px - 40px);
+            .quiz-container {
+                height: 100vh;
+                max-height: 100vh;
+                display: flex;
                 flex-direction: column;
+                overflow: hidden;
+            }
+
+            .quiz-main-area {
+                flex: 1 1 0;
+                height: auto !important;
+                min-height: 0;
+                flex-direction: column;
+                overflow: hidden;
             }
 
             .question-pane {
@@ -2371,28 +2394,35 @@
             }
 
             .quiz-footer {
-                height: 40px;
+                height: 44px;
+                min-height: 44px;
+                flex-shrink: 0;
                 padding: 0 8px;
                 gap: 6px;
-                position: sticky;
-                bottom: 0;
                 background: white;
                 z-index: 50;
+                border-top: 2px solid #ddd;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
             }
 
             .footer-left {
-                gap: 6px;
+                gap: 4px;
+                display: flex;
             }
 
             .btn-footer {
-                height: 26px;
-                padding: 0 8px;
-                font-size: 0.65rem;
+                height: 30px;
+                padding: 0 10px;
+                font-size: 0.7rem;
                 white-space: nowrap;
             }
 
             .btn-save-next {
-                min-width: 80px;
+                min-width: 90px;
+                font-size: 0.75rem;
+                font-weight: 600;
             }
 
             .badge-success, .badge-danger {
@@ -2421,23 +2451,19 @@
                 height: 24px;
             }
 
-            .quiz-main-area {
-                height: calc(100vh - 30px - 24px - 38px);
-            }
-
             .question-pane {
                 padding: 8px 10px;
             }
 
             .quiz-footer {
-                height: 38px;
-                padding: 0 6px;
+                height: 42px;
+                min-height: 42px;
             }
 
             .btn-footer {
-                height: 24px;
-                padding: 0 6px;
-                font-size: 0.6rem;
+                height: 28px;
+                padding: 0 8px;
+                font-size: 0.65rem;
             }
 
             .quiz-sidebar {
@@ -3231,6 +3257,13 @@ Choose the correct answer from the options given below:
                 const saveBtn = document.getElementById('saveNextBtn');
                 if (saveBtn) saveBtn.textContent = (S.currentQuestionIndex === S.questions.length - 1) ? 'Save & Finish' : 'Save & Next';
                 updateQuestionTimerDisplay();
+
+                // Re-typeset MathJax for dynamically loaded content
+                if (window.MathJax && MathJax.typesetPromise) {
+                    MathJax.typesetPromise().catch(function (err) {
+                        console.warn('MathJax typeset error:', err);
+                    });
+                }
             }
             function renderPalette() {
                 const p = document.getElementById('questionPalette');
@@ -3466,7 +3499,7 @@ Choose the correct answer from the options given below:
                 statusEl.innerHTML = `<svg class="svg-icon" style="width:1.25rem;height:1.25rem; margin-right: 0.5rem;"><use href="#icon-${statusInfo.icon}"></use></svg> ${statusInfo.text}`;
                 statusEl.style.color = statusInfo.color;
 
-                document.getElementById('reviewQuestionText').textContent = q.text;
+                document.getElementById('reviewQuestionText').innerHTML = q.text;
                 const opts = document.getElementById('reviewOptionsContainer');
                 opts.innerHTML = '';
 
@@ -3490,12 +3523,19 @@ Choose the correct answer from the options given below:
                     div.innerHTML = `<div><span class="option-prefix">${String.fromCharCode(65 + i)}.</span><span>${opt}</span></div> ${iconHtml}`;
                     opts.appendChild(div);
                 });
-                document.getElementById('explanationText').textContent = q.explanation;
+                document.getElementById('explanationText').innerHTML = q.explanation || '';
                 document.getElementById('prevReviewBtn').disabled = S.reviewIndex === 0;
                 document.getElementById('nextReviewBtn').disabled = S.reviewIndex === S.questions.length - 1;
 
                 // Update sidebar stats
                 document.getElementById('review-sidebar-stats').innerHTML = `<ul class="summary-list text-sm"><li><span>Status:</span> <span class="font-semibold" style="color: ${statusInfo.color};">${statusInfo.text}</span></li></ul>`;
+
+                // Re-typeset MathJax for review content
+                if (window.MathJax && MathJax.typesetPromise) {
+                    MathJax.typesetPromise().catch(function (err) {
+                        console.warn('MathJax typeset error:', err);
+                    });
+                }
             }
 
             function renderReviewPalette() {
