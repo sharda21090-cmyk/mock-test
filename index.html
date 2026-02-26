@@ -2218,6 +2218,259 @@
             justify-content: center;
             z-index: 100;
         }
+
+        /* --- Mobile Responsive for Quiz Interface --- */
+        @media (max-width: 768px) {
+            .quiz-container {
+                max-width: 100vw;
+            }
+
+            .quiz-top-bar {
+                height: 32px;
+                padding: 0 8px;
+            }
+
+            .timer-display {
+                font-size: 0.65rem;
+            }
+
+            .timer-box {
+                font-size: 0.65rem;
+                padding: 1px 3px;
+            }
+
+            .btn-top-control {
+                font-size: 0.6rem;
+                padding: 1px 4px;
+                height: 22px;
+            }
+
+            .section-bar {
+                height: 26px;
+                padding: 0 8px;
+            }
+
+            .section-label {
+                font-size: 0.6rem;
+            }
+
+            .section-tab {
+                font-size: 0.65rem;
+                padding: 2px 10px;
+            }
+
+            .quiz-main-area {
+                height: calc(100vh - 32px - 26px - 40px);
+                flex-direction: column;
+            }
+
+            .question-pane {
+                flex: 1;
+                padding: 10px 12px;
+                overflow-y: auto;
+                min-height: 0;
+            }
+
+            .question-header {
+                margin-bottom: 8px;
+                padding-bottom: 6px;
+            }
+
+            .question-header-top {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 4px;
+            }
+
+            .question-no {
+                font-size: 0.8rem;
+            }
+
+            .question-info-right {
+                font-size: 0.6rem;
+                gap: 6px;
+                flex-wrap: wrap;
+            }
+
+            .question-text {
+                font-size: 0.8rem;
+                margin-bottom: 10px;
+                line-height: 1.4;
+            }
+
+            .question-text table {
+                font-size: 0.7rem;
+                width: 100% !important;
+                max-width: 100%;
+                overflow-x: auto;
+                display: block;
+            }
+
+            .option-btn {
+                font-size: 0.75rem;
+                padding: 3px 0;
+                gap: 5px;
+            }
+
+            .options-grid {
+                gap: 6px;
+            }
+
+            .option-btn .option-prefix {
+                min-width: 11px;
+                width: 11px;
+                height: 11px;
+                margin-top: 3px;
+            }
+
+            /* Sidebar: hidden by default on mobile, shown as overlay */
+            .quiz-sidebar {
+                position: fixed;
+                top: 0;
+                right: 0;
+                width: 260px;
+                height: 100vh;
+                z-index: 200;
+                transform: translateX(100%);
+                transition: transform 0.3s ease;
+                overflow: hidden;
+            }
+
+            .quiz-sidebar.sidebar-open {
+                transform: translateX(0);
+            }
+
+            .sidebar-toggle {
+                position: fixed;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 20px;
+                height: 40px;
+                z-index: 201;
+                transition: right 0.3s ease;
+            }
+
+            .quiz-sidebar.sidebar-open ~ .sidebar-toggle {
+                right: 260px;
+            }
+
+            /* Semi-transparent backdrop when sidebar is open */
+            .sidebar-backdrop {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.35);
+                z-index: 199;
+            }
+            .sidebar-backdrop.active {
+                display: block;
+            }
+
+            .quiz-footer {
+                height: 40px;
+                padding: 0 8px;
+                gap: 6px;
+                position: sticky;
+                bottom: 0;
+                background: white;
+                z-index: 50;
+            }
+
+            .footer-left {
+                gap: 6px;
+            }
+
+            .btn-footer {
+                height: 26px;
+                padding: 0 8px;
+                font-size: 0.65rem;
+                white-space: nowrap;
+            }
+
+            .btn-save-next {
+                min-width: 80px;
+            }
+
+            .badge-success, .badge-danger {
+                font-size: 0.55rem;
+                padding: 0 3px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .quiz-top-bar {
+                height: 30px;
+                padding: 0 6px;
+            }
+
+            .timer-display span {
+                display: none;
+            }
+
+            .btn-top-control {
+                font-size: 0.55rem;
+                padding: 1px 3px;
+                height: 20px;
+            }
+
+            .section-bar {
+                height: 24px;
+            }
+
+            .quiz-main-area {
+                height: calc(100vh - 30px - 24px - 38px);
+            }
+
+            .question-pane {
+                padding: 8px 10px;
+            }
+
+            .quiz-footer {
+                height: 38px;
+                padding: 0 6px;
+            }
+
+            .btn-footer {
+                height: 24px;
+                padding: 0 6px;
+                font-size: 0.6rem;
+            }
+
+            .quiz-sidebar {
+                width: 240px;
+            }
+
+            .quiz-sidebar.sidebar-open ~ .sidebar-toggle {
+                right: 240px;
+            }
+        }
+
+        /* Ensure question HTML content renders well */
+        .question-text img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .question-text table {
+            border-collapse: collapse;
+            margin: 8px 0;
+            font-size: 0.8rem;
+        }
+
+        .question-text table td,
+        .question-text table th {
+            padding: 4px 8px;
+            border: 1px solid #ddd;
+        }
+
+        .option-btn img {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 
@@ -2375,7 +2628,7 @@ Choose the correct answer from the options given below:
                 timeLeft: 0,
                 timerInterval: null,
                 isTimerPaused: false,
-                autoNext: true,
+                autoNext: false,
                 isFullScreen: false,
                 isSidebarCollapsed: true,
                 quizResults: null,
@@ -2444,28 +2697,38 @@ Choose the correct answer from the options given below:
             function cleanQuestionText(text) {
                 let t = text.trim();
                 t = decodeHTMLEntities(decodeHTMLEntities(t));
-                // Strip HTML tags (from table markup in CSV)
-                t = t.replace(/<[^>]*>/g, '');
-                // Collapse multiple whitespace/newlines into readable form
-                t = t.replace(/[\t ]+/g, ' ');
+                // Preserve HTML for rendering (tables, math, bold, images)
+                // Just collapse excessive whitespace around tags
                 t = t.replace(/(\r?\n\s*){3,}/g, '\n\n');
                 return t.trim();
             }
 
             function parseCorrectAnswer(str) {
-                const match = str.match(/option\s*(\d+)/i);
+                const s = str.trim();
+                // Handle plain number like "1", "2", "3", "4"
+                if (/^\d+$/.test(s)) return parseInt(s, 10) - 1;
+                // Handle "The correct answer is option X"
+                const match = s.match(/option\s*(\d+)/i);
                 return match ? parseInt(match[1], 10) - 1 : 0;
             }
 
-            function loadQuestionsFromCSV() {
+            async function loadQuestionsFromCSV() {
                 try {
-                    const text = document.getElementById('csv-data').textContent;
+                    let text;
+                    try {
+                        const resp = await fetch('Questions.csv');
+                        if (resp.ok) text = await resp.text();
+                    } catch(e) {}
+                    if (!text) text = document.getElementById('csv-data').textContent;
                     const rows = parseCSV(text);
 
                     // Skip header row
                     const dataRows = rows.slice(1);
 
-                    C.questions = dataRows.map((row, index) => {
+                    C.questions = dataRows.filter(row => {
+                        // Skip rows where statement is empty or all fields empty
+                        return row[0] && row[0].trim() !== '' && row.length >= 5;
+                    }).map((row, index) => {
                         const statement = cleanQuestionText(row[0] || '');
                         const options = [
                             cleanOptionText(row[1] || ''),
@@ -2834,8 +3097,8 @@ Choose the correct answer from the options given below:
                 </div>`;
 
             // --- CORE LOGIC ---
-            function init() {
-                loadQuestionsFromCSV();
+            async function init() {
+                await loadQuestionsFromCSV();
                 S.questions = C.questions;
                 S.timeLeft = C.totalTime;
                 showScreen('instructions');
@@ -2947,7 +3210,7 @@ Choose the correct answer from the options given below:
                 if (badgeDanger) badgeDanger.textContent = "-" + (C.negativeMarking ? C.negativeMarking.toFixed(2) : "0.00");
 
                 const qTextEl = document.getElementById('questionText');
-                if (qTextEl) qTextEl.textContent = q.text;
+                if (qTextEl) qTextEl.innerHTML = q.text;
 
                 const opts = document.getElementById('optionsContainer');
                 if (opts) {
@@ -3300,11 +3563,33 @@ Choose the correct answer from the options given below:
             });
 
             function toggleSidebar() {
-                S.isSidebarCollapsed = !S.isSidebarCollapsed;
                 const sb = document.getElementById('quizSidebar');
                 const sbt = document.getElementById('sidebarToggle');
-                sb.classList.toggle('collapsed', S.isSidebarCollapsed);
-                sbt.innerHTML = S.isSidebarCollapsed ? `<svg class="svg-icon" ><use href="#icon-chevron-left" ></use></svg>` : `<svg class="svg-icon" ><use href="#icon-chevron-right" ></use></svg>`;
+
+                if (window.innerWidth <= 768) {
+                    // Mobile: toggle sidebar-open class and backdrop
+                    sb.classList.toggle('sidebar-open');
+                    const isOpen = sb.classList.contains('sidebar-open');
+                    let backdrop = document.getElementById('sidebarBackdrop');
+                    if (!backdrop) {
+                        backdrop = document.createElement('div');
+                        backdrop.id = 'sidebarBackdrop';
+                        backdrop.className = 'sidebar-backdrop';
+                        backdrop.onclick = toggleSidebar;
+                        sb.parentElement.insertBefore(backdrop, sb);
+                    }
+                    backdrop.classList.toggle('active', isOpen);
+                    sbt.innerHTML = isOpen
+                        ? `<svg class="svg-icon"><use href="#icon-chevron-right"></use></svg>`
+                        : `<svg class="svg-icon"><use href="#icon-chevron-left"></use></svg>`;
+                } else {
+                    // Desktop: toggle collapsed class
+                    S.isSidebarCollapsed = !S.isSidebarCollapsed;
+                    sb.classList.toggle('collapsed', S.isSidebarCollapsed);
+                    sbt.innerHTML = S.isSidebarCollapsed
+                        ? `<svg class="svg-icon"><use href="#icon-chevron-left"></use></svg>`
+                        : `<svg class="svg-icon"><use href="#icon-chevron-right"></use></svg>`;
+                }
             }
 
             init();
