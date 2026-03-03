@@ -3790,8 +3790,16 @@ UP Police Hindi Quiz,&amp;quot;(गुरु) ने प्रसन्न ह�
                         <p id="questionText" class="question-text"></p>
                         <div id="optionsContainer" class="options-grid"></div>
                     </div>
+                    <div class="quiz-footer">
+                        <div class="footer-left">
+                            <button id="markReviewBtn" class="btn-footer btn-mark-review">Mark for Review & Next</button>
+                            <button id="clearResponseBtn" class="btn-footer btn-clear">Clear Response</button>
+                        </div>
+                        <button id="saveNextBtn" class="btn-footer btn-save-next">Save & Next</button>
+                    </div>
+                </div>
 
-                    <div id="quizSidebar" class="quiz-sidebar">
+                <div id="quizSidebar" class="quiz-sidebar">
                         <div class="sidebar-user-info">
                             <div class="profile-avatar" style="width: 32px; height: 32px; font-size: 0.8rem;">
                                 <img src="https://ui-avatars.com/api/?name=Super+Coaching&background=4361ee&color=fff&size=32&rounded=true&bold=true" alt="SC" style="width:100%;height:100%;border-radius:50%;">
@@ -3820,14 +3828,6 @@ UP Police Hindi Quiz,&amp;quot;(गुरु) ने प्रसन्न ह�
                      <button id="sidebarToggle" class="sidebar-toggle" title="Toggle Sidebar">
                         <svg class="svg-icon"><use href="#icon-chevron-right"></use></svg>
                     </button>
-                </div>
-
-                <div class="quiz-footer">
-                    <div class="footer-left">
-                        <button id="markReviewBtn" class="btn-footer btn-mark-review">Mark for Review & Next</button>
-                        <button id="clearResponseBtn" class="btn-footer btn-clear">Clear Response</button>
-                    </div>
-                    <button id="saveNextBtn" class="btn-footer btn-save-next">Save & Next</button>
                 </div>
             `;
             const resultsTemplate = () => {
