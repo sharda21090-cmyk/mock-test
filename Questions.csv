@@ -1,63 +1,101 @@
 test_id,Statement,Option 1,Option 2,Option 3,Option 4,Correct Answer,Positive,Negative,Time,Test_link
-RRB NTPC GK Quiz,"The Bharatmala Pariyojana is associated with:
-भारतमाला परियोजना किससे संबंधित है?",Highways / राजमार्गों से,Railways / रेलवे से,Telecom / दूरसंचार&lt;span style=&quot;&quot;&gt;&amp;nbsp;से&lt;/span&gt;,Ports / बंदरगाहों&lt;span style=&quot;&quot;&gt;&amp;nbsp;से&lt;/span&gt;,1,2,1,20,https://mock-test-kappa.vercel.app/?test=rrb-ntpc-gk-quiz
-RRB NTPC GK Quiz,"National Panchayati Raj Day in India is celebrated on&amp;nbsp;
-भारत में राष्ट्रीय पंचायती राज दिवस कब मनाया जाता है?&amp;nbsp;",26 January / 26 जनवरी&amp;nbsp;,2 October / 2 अक्टूबर&amp;nbsp;,21 April&amp;nbsp; / 21 अप्रैल&amp;nbsp;,24 April / 24 अप्रैल&amp;nbsp;,4,,,,
-RRB NTPC GK Quiz,"Who was the first Indian to win Oscar award?
-ऑस्कर पुरस्कार जीतने वाले/वाली पहले भारतीय कौन थे/थी?",Satyajit Ray / सत्यजीत रे,A.R. Rehman / ए.आर. रहमान,Bhanu Athaiya / भानु अथैया,Shahrukh Khan / शाहरुख खान,3,,,,
-RRB NTPC GK Quiz,"Which of the following book is not written by Shashi Tharoor?
-शशि थरूर ने इनमें से कौन सी पुस्तक नहीं लिखी है?",Why I am a Hindu / वाइ आई एम ए हिंदू,Hind Swaraj / हिंद स्वराज,The Paradoxical Prime Minister / द पैराडाॅक्सीकल प्राइम मिनिस्टर,An era of darkness: The British Empire in India / एन एरा ऑफ डार्कनेस: द ब्रिटिश एम्पायर इन इंडिया,2,,,,
-RRB NTPC GK Quiz,"Which among the following constitutional amendment act, reduced the age of voting from 21 years to 18 years?
-निम्नलिखित में से किस संविधान संशोधन अधिनियम ने मतदान की आयु को 21 वर्ष से घटाकर 18 वर्ष कर दिया?","60th Amendment Act, 1988 / 60वां संशोधन अधिनियम, 1988","61st Amendment Act,&amp;nbsp;1988 / 61वां संशोधन अधिनियम, 1988","62nd&amp;nbsp;Amendment Act,&amp;nbsp;1989 / 62वां संशोधन अधिनियम, 1989",NOTA / नोटा,2,,,,
-RRB NTPC GK Quiz,"As per the Economic Survey 2025-26, what is the stature of India in terms of the export of services globally?
-आर्थिक सर्वेक्षण 2025-26 के अनुसार, विश्व स्तर पर सेवाओं के निर्यात के मामले में भारत का क्या स्थान है?",Fifth-largest exporter&amp;nbsp; / पांचवां सबसे बड़ा निर्यातक,Third-largest exporter / तीसरा सबसे बड़ा निर्यातक,​Seventh-largest exporter / सातवां सबसे बड़ा निर्यातक,Tenth-largest exporter / दसवां सबसे बड़ा निर्यातक,3,,,,
-RRB NTPC GK Quiz,"Professor M.S. Narasimhan, who passed away recently, was associated with which field ?
-प्रोफेसर M.S. नरसिम्हन, जिनका हाल ही में निधन हुआ, किस क्षेत्र से जुड़े हुए थे ?",Physics / भौतिकशास्त्र,Mathematics / गणित,Textile Design / टेक्सटाइल डिजाइन,Architecture / वास्तुकला,2,,,,
-RRB NTPC GK Quiz,"In which year did Jyotirao Phule establish Satyashodhak Samaj?
-ज्योतिराव फुले ने किस वर्ष में सत्यशोधक समाज की स्थापना की थी?",1857,1873,1883,1905,2,,,,
-RRB NTPC GK Quiz,"Forest Conservation Act was enacted in which year?
-&lt;span style=&quot;&quot;&gt;वन संरक्षण अधिनियम किस वर्ष में अधिनियमित किया&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;गया?&lt;/span&gt;",1972 / &lt;span style=&quot;&quot;&gt;1972&lt;/span&gt;,1976 / &lt;span style=&quot;&quot;&gt;1976&lt;/span&gt;,1980 / &lt;span style=&quot;&quot;&gt;1980&lt;/span&gt;,1984 / &lt;span style=&quot;&quot;&gt;1984&lt;/span&gt;,3,,,,
-RRB NTPC GK Quiz,"Which one of the following properties is &lt;strong&gt;not &lt;/strong&gt;generally exhibited by ionic compounds?
-निम्नलिखित में से कौन सा गुण आयनिक यौगिकों द्वारा प्रदर्शित &lt;strong&gt;नहीं&lt;/strong&gt; किया जाता है?",Solubility in water / जल में विलेयता,Electrical conductivity in solid state / ठोस अवस्था में विद्युत चालकता,High melting and boiling points / उच्च गलनांक और क्वथनांक,Electrical conductivity in molten state / गलित अवस्था में विद्युत चालकता,2,,,,
-SSC English Quiz,The protesting employees were asked to ________ their strike.,call over,call on,call of,call off,4,3,1,10,https://mock-test-kappa.vercel.app/?test=ssc-english-quiz
-SSC English Quiz,"&lt;p&gt;Select the most appropriate option to fill in the blank.&lt;/p&gt;
+Reasoning Quiz,"&lt;p&gt;Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.&lt;/p&gt;
 
-&lt;p&gt;My niece is very kind and ______ to everyone in the family.&lt;/p&gt;
-",callous,ruthless,generous,stern,3,,,,
-SSC English Quiz,"&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;Directions: Each item in this section consists of a sentence with an underlined word followed by four words/groups of words. Select the option that is nearest in meaning to the underlined word and mark your response on the Answer Sheet accordingly.&lt;/strong&gt;&lt;/p&gt;
-The team&amp;#39;s strategy was &lt;u&gt;&amp;quot;innovative&amp;quot;&lt;/u&gt;, introducing new methods that set industry standards.",traditional,creative,outdated,usual,2,,,,
-SSC English Quiz,"&lt;p&gt;Select the most appropriate option that can substitute the underlined segment in the given sentence.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Statements:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;She &lt;u&gt;always do&lt;/u&gt; her work in time.&lt;/p&gt;
-",always will done,always done,always does,always doing,3,,,,
-SSC English Quiz,"&lt;p&gt;Find the part of the given sentence that has an error in it. If there is no error, choose &amp;lsquo;No error&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;Some stars are buttons.&lt;/p&gt;
 
-&lt;p&gt;Onions are most water, (1)/ plus some vitamins (2)/ and sugar compounds. (3)/&amp;nbsp;No error (4)&lt;/p&gt;
-","Onions are most water,",and sugar compounds.,plus some vitamins,No error,1,,,,
-SSC English Quiz,"&lt;p&gt;Select the most appropriate ANTONYM of the given word.&lt;/p&gt;
+&lt;p&gt;No buttons are clips.&lt;/p&gt;
 
-&lt;p&gt;JUICY&lt;/p&gt;
-",Oily,Dewy,Watery,Dry&lt;span style=&quot;display: none;&quot;&gt;&amp;nbsp;&lt;/span&gt;,4,,,,
-SSC English Quiz,&lt;strong&gt;Select the incorrectly spelt word.&lt;/strong&gt;,Harmonious,Supernatural,Hereditory,Revolution,3,,,,
-SSC English Quiz,"&lt;p&gt;Read the sentence carefully and choose the option that has an error in it:&lt;/p&gt;
+&lt;p&gt;All buttons are ribbons.&lt;/p&gt;
 
-&lt;p&gt;In spite of its small size, these cameras take very good pictures.&lt;/p&gt;
-",take very good pictures.,In spite of its small size,these cameras,No error,2,,,,
-SSC English Quiz,"&lt;p&gt;Select the option that gives the most appropriate meaning of the underlined idiom.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conclusions:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Beginners should not &lt;u&gt;put all eggs in one basket&lt;/u&gt;.&lt;/p&gt;
-",Put all eggs in a basket and carry,Put all materials in a container,Use all money you have with you,Risk everything in one venture,4,,,,
-SSC English Quiz,"&lt;p&gt;Select the option that will improve the underlined part of the given sentence. In case no improvement is needed, select &amp;#39;No improvement required&amp;#39;.&lt;/p&gt;
+&lt;p&gt;(I) Some stars are ribbons.&lt;/p&gt;
 
-&lt;p&gt;In India, processed foods&amp;nbsp;&lt;u&gt;becomes popular in&lt;/u&gt;&amp;nbsp;the 20&lt;sup&gt;th&lt;/sup&gt; century.&lt;/p&gt;
-",became popular in,become popularity in,No improvement required,become popular at,1,,,,
-UP Police Hindi Quiz,भारतीय भाषा परिषद कहाँ पर स्थित है?,&lt;span style=&quot;&quot;&gt;कोलकाता&lt;/span&gt;,मैसूर,नई दिल्ली,वाराणसी,1,2.5,0,10,https://mock-test-kappa.vercel.app/?test=up-police-hindi-quiz
-UP Police Hindi Quiz,&amp;#39;कुक्षि&amp;#39; शब्द का तद्भव रूप क्या है?,कोख,कक्ष,अक्षि,आँत,1,,,,
-UP Police Hindi Quiz,"जिन पंक्तियों में नायक-नायिका का मिलन होता है, वहाँ रस की दृष्टि से कौन-सा शृंगार होता है?",हास्य,अद्भुत,संयोग,वियोग,3,,,,
-UP Police Hindi Quiz,&amp;#39;Adjournment(एडजर्नमेंट)&amp;#39; शब्द का हिंदी पर्याय कौन-सा है?,स्थगन,पार्श्व,न्यायनिर्णयन,समायोजन,1,,,,
-UP Police Hindi Quiz,"&amp;#39;फिर भी कुछ रह जाएगा&amp;#39; काव्य-कृति के लिए किन्हें, कौन-सा पुरस्कार प्राप्त हुआ?",विश्वनाथ प्रसाद तिवारी को व्यास सम्मान,निर्मल वर्मा को ज्ञानपीठ पुरस्कार,रामेंद्र मिश्र को व्यास सम्मान,कैलाश वाजपेयी को साहित्य अकादमी पुरस्कार,1,,,,
-UP Police Hindi Quiz,&amp;lsquo;चरण कमल बन्दौ हरि राई&amp;#39; में कौन-सा अलंकार है ?,उपमा,अतिशयोक्ति,उल्लेख,रूपक,4,,,,
-UP Police Hindi Quiz,&amp;lsquo;प्रत्युत्पन्नमति&amp;#39; शब्द में प्रयुक्त उपसर्ग है :,प्रति,प्रत्युत्,प्र,प्रत्यु,1,,,,
-UP Police Hindi Quiz,"जिसमें कोई पद प्रधान नहीं होता तथा अन्य अर्थ प्रधान होता है, वहाँ होता है :",अव्ययीभाव समास,बहुव्रीहि समास,कर्मधारय समास,तत्पुरुष समास,2,,,,
-UP Police Hindi Quiz,"&amp;lsquo;सर्प&amp;rsquo;, &amp;lsquo;मेघ&amp;rsquo;, &amp;lsquo;हरिण&amp;rsquo; किस शब्द के अनेकार्थी हैं ?",नारंग,षडंग,सारंग,शारंग,3,,,,
-UP Police Hindi Quiz,&amp;quot;(गुरु) ने प्रसन्न होकर मुझे एक मंत्र दिया।&amp;quot; कोष्ठक में दिए गए शब्द का वचन बदलिए।,गुरुजन,गुरुजी,गुरुओं,गुरु,1,,,,
+&lt;p&gt;(II) Some ribbons are buttons.&lt;/p&gt;
+
+&lt;p&gt;दिए गए कथनों और निष्कर्षों को ध्यानपूर्वक पढ़िए। यह मानते हुए कि कथनों में दी गई जानकारी सत्य है, भले ही यह सामान्यतः ज्ञात तथ्यों से भिन्न प्रतीत होती हो, निर्णय लीजिए कि दिए गए निष्कर्षों में से कौन सा निष्कर्ष कथनों का तार्किक रूप से अनुसरण करता है।&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;कथन:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;कुछ सितारे बटन हैं।&lt;/p&gt;
+
+&lt;p&gt;कोई बटन क्लिप नहीं हैं।&lt;/p&gt;
+
+&lt;p&gt;सभी बटन रिबन हैं।&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;निष्कर्ष:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;(I) कुछ सितारे रिबन हैं।&lt;/p&gt;
+
+&lt;p&gt;(II) कुछ रिबन बटन हैं।&lt;/p&gt;
+",Both conclusions (I) and (II) follow / दोनों निष्कर्ष (I) और (II) अनुसरण करते हैं,Only conclusion (I) follows / केवल निष्कर्ष (I) अनुसरण करता है,Neither conclusion (I) nor (II) follows / न तो निष्कर्ष (I) और न ही (II) अनुसरण करता है,Only conclusion (II) follows / केवल निष्कर्ष (II) अनुसरण करता है,1,2,0,20,https://mock-test-kappa.vercel.app/?test=reasoning-quiz
+Reasoning Quiz,"&lt;p&gt;If &amp;lsquo;+&amp;rsquo; means &amp;lsquo;&amp;ndash;&amp;rsquo;, &amp;lsquo;&amp;ndash;&amp;rsquo; means &amp;lsquo;&amp;times;&amp;rsquo;, &amp;lsquo;&amp;times;&amp;rsquo; means &amp;lsquo;&amp;divide;&amp;rsquo;, &amp;lsquo;&amp;divide;&amp;rsquo; means &amp;lsquo;+&amp;rsquo;, then what will come in place of the question mark (?) in the following equation?&lt;/p&gt;
+
+&lt;p&gt;13 &amp;ndash; 182 &amp;times; 14 &amp;divide; 25 + 16 = ?&lt;/p&gt;
+
+&lt;p&gt;यदि &amp;#39;+&amp;#39; का अर्थ &amp;#39;-&amp;#39;, &amp;#39;-&amp;#39; का अर्थ &amp;#39;&amp;times;&amp;#39;, &amp;#39;&amp;times;&amp;#39; का अर्थ &amp;#39;&amp;divide;&amp;#39;, &amp;#39;&amp;divide;&amp;#39; का अर्थ &amp;#39;+&amp;#39; है, तो निम्नलिखित समीकरण में प्रश्न चिह्न (?) के स्थान पर क्या आएगा?&lt;/p&gt;
+
+&lt;p&gt;13 - 182 &amp;times; 14 &amp;divide; 25 + 16 = ?&lt;/p&gt;
+",155,169,178,182,3,,,,
+Reasoning Quiz,"&lt;p&gt;&lt;strong&gt;Directions:&lt;/strong&gt; Read the following information carefully and answer the question that follow:&lt;/p&gt;
+
+&lt;p&gt;Admission in FIIT-JEE is going on for the IIT aspirants. To be eligible to take admission in the course, a candidate must fulfil the following requirements.&lt;/p&gt;
+
+&lt;p&gt;i) Score of the candidate in Class 12&lt;sup&gt;th&lt;/sup&gt; must not be less than 85%.&lt;/p&gt;
+
+&lt;p&gt;ii) Candidate must have studied Maths as a subject in Class 12&lt;sup&gt;th&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;iii) Candidate must score at least 65% in admission test.&lt;/p&gt;
+
+&lt;p&gt;iv) Candidate must score at least 50% in interview taken for admission test.&lt;/p&gt;
+
+&lt;p&gt;In the question below, detail of one candidate is provided. You have to take one of the following course of actions based on the conditions given above and the information provided in each question and mark the number of that course of action as your answer. You are not to assume anything other than the information provided in each question.&lt;/p&gt;
+Sneha has scored 86% in 12&lt;sup&gt;th&lt;/sup&gt; exam and has studied both Biology and Maths as a subject in school. She scored 56% in interview and 64% in admission test.
+&lt;p&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;निर्देश:&lt;/span&gt;&amp;nbsp;निम्नलिखित जानकारी का ध्यानपूर्वक अध्ययन कीजिए और उन पर आधारित प्रश्नों के उत्तर दीजिए:&lt;/p&gt;
+
+&lt;p&gt;IIT के उम्मीदवारों के लिए FIIT-JEE में दाखिले किए जा रहे हैं। पाठ्यक्रम में दाखिला प्राप्त करने के लिए एक उम्मीदवार को निश्चित रूप से निम्न योग्यताओं की संतुष्टि&amp;nbsp;करनी होगी।&lt;/p&gt;
+
+&lt;p&gt;i) 12वीं कक्षा में उम्मीदवार के अंक 85% से कम नहीं होने चाहिए।&lt;/p&gt;
+
+&lt;p&gt;ii) उम्मीदवार ने 12वीं कक्षा में एक विषय के रूप में गणित का अध्ययन किया हो।&lt;/p&gt;
+
+&lt;p&gt;iii) उम्मीदवार ने प्रवेश परीक्षा में कम से कम 65% अंक प्राप्त किए हों।&lt;/p&gt;
+
+&lt;p&gt;iv) उम्मीदवार ने प्रवेश परीक्षा के लिए हुए साक्षात्कार में कम से कम 50% अंक प्राप्त किए हों।&lt;/p&gt;
+
+&lt;p&gt;नीचे दिए गए प्रश्न में एक उम्मीदवार का विवरण दिया गया है। आपको ऊपर दी गईं शर्तों और प्रत्येक प्रश्न में दी गयी जानकारी के आधार पर निम्नलिखित क्रियाविधियों में से एक को चुनना है और उस क्रियाविधि की संख्या को अपने उत्तर के रूप में चिन्हित करना है। आपको प्रत्येक प्रश्न में दी गई जानकारी के अलावा कुछ भी नहीं मानना है।&lt;/p&gt;
+स्नेहा ने 12वीं की परीक्षा में 86% अंक प्राप्त किए हैं और स्कूल में एक विषय के रूप में जीव विज्ञान और गणित दोनों की पढ़ाई की है। उसने साक्षात्कार में 56% और प्रवेश परीक्षा में 64% अंक प्राप्त किए हैं।",The candidate will be selected / उम्मीदवार का चयन किया जाएगा।&amp;nbsp;,The candidate will be enrolled in one month development program / उम्मीदवार को एक महीने के विकास कार्यक्रम में दाखिला दिया जाएगा।&amp;nbsp;,The candidate will not be selected / उम्मीदवार का चयन नहीं किया जाएगा।&amp;nbsp;,Data is not sufficient to take any decision / किसी भी निर्णय को लेने के लिए जानकारी पर्याप्त नहीं है।&amp;nbsp;,3,,,,
+Reasoning Quiz,"&lt;p&gt;Select the option that is related to the fifth letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster and the fourth letter-cluster is related to the third letter-cluster.&lt;/p&gt;
+
+&lt;p&gt;GOOD : IMQB :: CARE : EYTC :: SAVE : ?&lt;/p&gt;
+
+&lt;p&gt;उस विकल्प का चयन कीजिए जो पाँचवे&amp;nbsp;अक्षर-समूह से उसी प्रकार संबंधित है, जिस प्रकार दूसरा अक्षर-समूह, पहले अक्षर-समूह से संबंधित है और चौथा अक्षर-समूह, तीसरे अक्षर-समूह से संबंधित है।&lt;/p&gt;
+
+&lt;p&gt;GOOD : IMQB :: CARE : EYTC :: SAVE : ?&lt;/p&gt;
+",QCTG,UXXC,UYXC,UYTG,3,,,,
+Reasoning Quiz,"&lt;p&gt;&amp;#39;M ! N&amp;#39; means M is the son of N.&lt;/p&gt;
+
+&lt;p&gt;&amp;#39;M @ N&amp;#39; means M is the brother&amp;nbsp;of N.&lt;/p&gt;
+
+&lt;p&gt;&amp;#39;M # N&amp;#39; means M is the sister of N.&lt;/p&gt;
+
+&lt;p&gt;&amp;#39;M * N&amp;#39; means M is the mother of N.&lt;/p&gt;
+
+&lt;p&gt;&amp;#39;M &amp;amp; N&amp;#39; means M is the father of N.&lt;/p&gt;
+
+&lt;p&gt;In the expression P @ Q ! R # S &amp;amp; T, how Q is related to T?&lt;/p&gt;
+
+&lt;p&gt;&amp;#39;M ! N&amp;#39; का अर्थ है&amp;nbsp;M, N का पुत्र है&lt;span style=&quot;&quot;&gt;।&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;#39;M @ N&amp;#39; का अर्थ है&amp;nbsp;M,&amp;nbsp;N&amp;nbsp;का भाई है&lt;span style=&quot;&quot;&gt;।&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;#39;M # N&amp;#39; का अर्थ है&amp;nbsp;M,&amp;nbsp;N की बहन है&lt;span style=&quot;&quot;&gt;।&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;#39;M * N&amp;#39; का अर्थ है&amp;nbsp;M,&amp;nbsp;N की माता है&lt;span style=&quot;&quot;&gt;।&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;#39;M &amp;amp; N&amp;#39; का अर्थ है&amp;nbsp;M,&amp;nbsp;N का पिता है&lt;span style=&quot;&quot;&gt;।&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;इस व्यंजक P @ Q ! R # S &amp;amp; T में,&amp;nbsp;Q,&amp;nbsp;T से किस प्रकार संबंधित&amp;nbsp;है?&lt;/p&gt;
+",Father / पिता,Mother / माता,Cousin / कजिन,Sister / बहन,3,,,,
